@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/datebd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalendarAct">
+
+    <Button
+        android:id="@+id/signupBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="180dp"
+        android:text="complete sign up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/pickBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="286dp"
+        android:text="pick birthdate"
+        app:layout_constraintStart_toStartOf="@+id/signupBut"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="45dp"
+        android:text="BIRTHDATE"
+        android:textColor="#EA1111"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/pickBtn"
+        app:layout_constraintEnd_toEndOf="@+id/pickBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
